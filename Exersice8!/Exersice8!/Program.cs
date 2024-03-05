@@ -5,13 +5,23 @@
         static void Main(string[] args)
         {
             Console.Write("give me a max number");
-           int maxnumber= int.Parse(Console.ReadLine()); 
-         
+            int maxnumber = int.Parse(Console.ReadLine());
+
             for (int i = 0;
-                i <= maxnumber; i = i+2) 
-            { 
+                i <= maxnumber; i = i + 2)
+            {
                 Console.WriteLine(i);
             }
+
+            Console.Write("give me a max number");
+             maxnumber = int.Parse(Console.ReadLine());
+
+            for (int i = 0;
+                i < maxnumber; i = i+1)
+            {
+                Console.Write("*");
+            }
+
         }
     }
 }
